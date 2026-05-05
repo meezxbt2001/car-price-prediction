@@ -68,7 +68,7 @@ All results were collected into a summary DataFrame and ranked by RMSE.
 
 ## Key findings
 
-Single-feature models using **Year of manufacture** and **Engine size** tended to outperform Mileage alone — newer cars and larger engines correlate more directly with price in this dataset.
+Single-feature models using **Year of manufacture** and **Engine size** tended to outperform Mileage alone, newer cars and larger engines correlate more directly with price in this dataset.
 
 Polynomial regression (degree 2) improved on linear for most features, capturing the non-linear relationship between age/mileage and price depreciation. However, the gains were modest, suggesting the relationship is partially linear and that multi-feature models would be the natural next step.
 
